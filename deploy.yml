@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: sb-app
+  name: deploy-name
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: sb-app
+
+  template:
+    metadata:
+      labels:
+        run: sb-app
+
+    spec:
+      containers:
+      - image: karnamshyam1947/adda-lab-cicd-demo:latest
+        name: adda-lab-cicd-demo
+        ports:
+            - containerPort: 8080
