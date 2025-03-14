@@ -20,4 +20,4 @@ spec:
       - image: karnamshyam1947/adda-lab-cicd-demo:v1
         name: adda-lab-cicd-demo
         ports:
-            - containerPort: 8080
+            - containerPort: 8080Updated at Fri Mar 14 03:13:39 PM IST 2025
