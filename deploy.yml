@@ -17,7 +17,7 @@ spec:
 
     spec:
       containers:
-      - image: karnamshyam1947/adda-lab-cicd-demo:latest
+      - image: karnamshyam1947/adda-lab-cicd-demo:v1
         name: adda-lab-cicd-demo
         ports:
             - containerPort: 8080
